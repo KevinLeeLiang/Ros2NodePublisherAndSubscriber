@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.002649] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.002775] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.021508] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.022598] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:51615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1878,unix/ubuntu:/tmp/.ICE-unix/1878'), ('INVOCATION_ID', 'cfac3af878ca4d0aa174d77f01bf185d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e1e26b9_bdc7_46d5_8b16_900545d5bbb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy')]), 'shell': False}
+[0.101223] (-) TimerEvent: {}
+[0.102543] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.179505] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.187920] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.203718] (-) TimerEvent: {}
+[0.263755] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.272570] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.272870] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.273399] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.277040] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.305106] (-) TimerEvent: {}
+[0.367206] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.376081] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.376440] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.377061] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.379953] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.405602] (-) TimerEvent: {}
+[0.406951] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.407239] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.510164] (-) TimerEvent: {}
+[0.610952] (-) TimerEvent: {}
+[0.654102] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.706905] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.711270] (-) TimerEvent: {}
+[0.715234] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.808225] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.812967] (-) TimerEvent: {}
+[0.844747] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.913300] (-) TimerEvent: {}
+[0.935090] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.992786] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.994571] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.995949] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.013755] (-) TimerEvent: {}
+[1.078083] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.078498] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.114315] (-) TimerEvent: {}
+[1.157676] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.158122] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.212850] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.214329] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.214580] (-) TimerEvent: {}
+[1.288025] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.289657] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.315085] (-) TimerEvent: {}
+[1.416375] (-) TimerEvent: {}
+[1.517508] (-) TimerEvent: {}
+[1.563176] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.581531] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.584911] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub\n'}
+[1.597972] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.602594] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.603029] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:51615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1878,unix/ubuntu:/tmp/.ICE-unix/1878'), ('INVOCATION_ID', 'cfac3af878ca4d0aa174d77f01bf185d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e1e26b9_bdc7_46d5_8b16_900545d5bbb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy')]), 'shell': False}
+[1.617872] (-) TimerEvent: {}
+[1.624638] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.658090] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.718297] (-) TimerEvent: {}
+[1.819629] (-) TimerEvent: {}
+[1.907994] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.922143] (-) TimerEvent: {}
+[1.949284] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.953905] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.023864] (-) TimerEvent: {}
+[2.094779] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.124377] (-) TimerEvent: {}
+[2.168056] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.169434] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.225956] (-) TimerEvent: {}
+[2.326296] (-) TimerEvent: {}
+[2.396877] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.414491] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.418906] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub\n'}
+[2.427420] (-) TimerEvent: {}
+[2.446078] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.446373] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.471954] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[2.533479] (-) TimerEvent: {}
+[2.572664] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[2.572950] (cpp_pubsub) StderrLine: {'line': b"(.text+0x24): undefined reference to `main'\n"}
+[2.573735] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.574103] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:144: listener] Error 1\n'}
+[2.574354] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[2.574490] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.634510] (-) TimerEvent: {}
+[2.735208] (-) TimerEvent: {}
+[2.836371] (-) TimerEvent: {}
+[2.936850] (-) TimerEvent: {}
+[3.037703] (-) TimerEvent: {}
+[3.138106] (-) TimerEvent: {}
+[3.238506] (-) TimerEvent: {}
+[3.339020] (-) TimerEvent: {}
+[3.439384] (-) TimerEvent: {}
+[3.539787] (-) TimerEvent: {}
+[3.640236] (-) TimerEvent: {}
+[3.740736] (-) TimerEvent: {}
+[3.841241] (-) TimerEvent: {}
+[3.941688] (-) TimerEvent: {}
+[4.042031] (-) TimerEvent: {}
+[4.142410] (-) TimerEvent: {}
+[4.242813] (-) TimerEvent: {}
+[4.343169] (-) TimerEvent: {}
+[4.443540] (-) TimerEvent: {}
+[4.544098] (-) TimerEvent: {}
+[4.644649] (-) TimerEvent: {}
+[4.744993] (-) TimerEvent: {}
+[4.845326] (-) TimerEvent: {}
+[4.945750] (-) TimerEvent: {}
+[5.046106] (-) TimerEvent: {}
+[5.146452] (-) TimerEvent: {}
+[5.246809] (-) TimerEvent: {}
+[5.347212] (-) TimerEvent: {}
+[5.447587] (-) TimerEvent: {}
+[5.547985] (-) TimerEvent: {}
+[5.648364] (-) TimerEvent: {}
+[5.748729] (-) TimerEvent: {}
+[5.849097] (-) TimerEvent: {}
+[5.949442] (-) TimerEvent: {}
+[6.049825] (-) TimerEvent: {}
+[6.150214] (-) TimerEvent: {}
+[6.250667] (-) TimerEvent: {}
+[6.351097] (-) TimerEvent: {}
+[6.451825] (-) TimerEvent: {}
+[6.552354] (-) TimerEvent: {}
+[6.652815] (-) TimerEvent: {}
+[6.753342] (-) TimerEvent: {}
+[6.853780] (-) TimerEvent: {}
+[6.954167] (-) TimerEvent: {}
+[7.054637] (-) TimerEvent: {}
+[7.155069] (-) TimerEvent: {}
+[7.255493] (-) TimerEvent: {}
+[7.356764] (-) TimerEvent: {}
+[7.458042] (-) TimerEvent: {}
+[7.559307] (-) TimerEvent: {}
+[7.659734] (-) TimerEvent: {}
+[7.760164] (-) TimerEvent: {}
+[7.862356] (-) TimerEvent: {}
+[7.965142] (-) TimerEvent: {}
+[8.067812] (-) TimerEvent: {}
+[8.170436] (-) TimerEvent: {}
+[8.271633] (-) TimerEvent: {}
+[8.374711] (-) TimerEvent: {}
+[8.475182] (-) TimerEvent: {}
+[8.575715] (-) TimerEvent: {}
+[8.676487] (-) TimerEvent: {}
+[8.776938] (-) TimerEvent: {}
+[8.785020] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.878780] (-) TimerEvent: {}
+[8.979408] (-) TimerEvent: {}
+[8.981915] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[8.982883] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[8.984871] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[9.035540] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[9.047178] (-) EventReactorShutdown: {}

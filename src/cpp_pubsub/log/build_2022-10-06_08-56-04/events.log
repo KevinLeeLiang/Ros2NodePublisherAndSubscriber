@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001240] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001357] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.016312] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.017835] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.019863] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1809'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1643'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:50939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1856,unix/ubuntu:/tmp/.ICE-unix/1856'), ('INVOCATION_ID', '1968eea2de7141d5b6d57346f1af7232'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0041d5dc_925b_44c3_af19_36ee6bd2b009'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.053324] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.053720] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.071796] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.072404] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.099671] (-) TimerEvent: {}
+[0.202625] (-) TimerEvent: {}
+[0.303340] (-) TimerEvent: {}
+[0.405853] (-) TimerEvent: {}
+[0.506825] (-) TimerEvent: {}
+[0.609060] (-) TimerEvent: {}
+[0.710043] (-) TimerEvent: {}
+[0.812419] (-) TimerEvent: {}
+[0.913885] (-) TimerEvent: {}
+[1.015324] (-) TimerEvent: {}
+[1.115902] (-) TimerEvent: {}
+[1.216418] (-) TimerEvent: {}
+[1.318448] (-) TimerEvent: {}
+[1.419997] (-) TimerEvent: {}
+[1.520762] (-) TimerEvent: {}
+[1.621525] (-) TimerEvent: {}
+[1.723607] (-) TimerEvent: {}
+[1.824378] (-) TimerEvent: {}
+[1.925674] (-) TimerEvent: {}
+[2.026776] (-) TimerEvent: {}
+[2.128666] (-) TimerEvent: {}
+[2.229409] (-) TimerEvent: {}
+[2.330977] (-) TimerEvent: {}
+[2.433546] (-) TimerEvent: {}
+[2.534927] (-) TimerEvent: {}
+[2.635745] (-) TimerEvent: {}
+[2.737274] (-) TimerEvent: {}
+[2.837965] (-) TimerEvent: {}
+[2.882875] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.883121] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.883209] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[2.883286] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.883360] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.883431] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.883501] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.883571] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:2\x1b[m\x1b[K:\n'}
+[2.883645] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.883717] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<TimerSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883803] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883933] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.884012] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.884084] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.884161] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.884236] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TimerSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.884308] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:65:50:\x1b[m\x1b[K   required from here\n'}
+[2.884384] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.884454] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.884532] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.884679] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:45:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.884761] (cpp_pubsub) StderrLine: {'line': b'   45 |   \x1b[01;36m\x1b[KTimerSubscriber\x1b[m\x1b[K()\n'}
+[2.884951] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912987] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.913235] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.913335] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[2.913415] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.913490] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.913574] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.913655] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[2.913729] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:2\x1b[m\x1b[K:\n'}
+[2.913803] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.913877] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<TimerSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.913954] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914038] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914115] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914194] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914272] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914347] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TimerSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.914523] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:65:50:\x1b[m\x1b[K   required from here\n'}
+[2.914620] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.914694] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.915164] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.915362] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.915572] (cpp_pubsub) StderrLine: {'line': b'   45 |   \x1b[01;36m\x1b[KTimerSubscriber\x1b[m\x1b[K()\n'}
+[2.915753] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.940377] (-) TimerEvent: {}
+[3.042264] (-) TimerEvent: {}
+[3.144068] (-) TimerEvent: {}
+[3.245093] (-) TimerEvent: {}
+[3.348771] (-) TimerEvent: {}
+[3.458176] (-) TimerEvent: {}
+[3.560754] (-) TimerEvent: {}
+[3.661540] (-) TimerEvent: {}
+[3.763909] (-) TimerEvent: {}
+[3.858099] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.858398] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.858499] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.864610] (-) TimerEvent: {}
+[3.904935] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[3.905332] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.905591] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[3.908057] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[3.965527] (-) TimerEvent: {}
+[3.966555] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[3.978873] (-) EventReactorShutdown: {}

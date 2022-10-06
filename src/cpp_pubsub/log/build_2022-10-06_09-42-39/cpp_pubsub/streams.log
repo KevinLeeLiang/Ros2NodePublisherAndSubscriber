@@ -1,0 +1,30 @@
+[0.031s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.086s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.086s] [ 75%] Built target listener
+[6.489s] [100%] [32m[1mLinking CXX executable talker[0m
+[6.820s] [100%] Built target talker
+[6.828s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[6.870s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub
+[6.876s] -- Install configuration: ""
+[6.876s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.881s] -- Set runtime path of "/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[6.882s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.886s] -- Set runtime path of "/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[6.887s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.887s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.888s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.889s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.890s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.891s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.891s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.892s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.892s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.892s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.893s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.893s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.893s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.894s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.895s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.895s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub

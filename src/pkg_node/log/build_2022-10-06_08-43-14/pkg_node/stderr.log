@@ -1,0 +1,4 @@
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:14:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   14 |   long [01;35m[Kll[m[K = t.nanoseconds();
+      |        [01;35m[K^~[m[K

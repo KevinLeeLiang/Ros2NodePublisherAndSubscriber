@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (pkg_node) JobQueued: {'identifier': 'pkg_node', 'dependencies': OrderedDict()}
+[0.001721] (pkg_node) JobStarted: {'identifier': 'pkg_node'}
+[0.016618] (pkg_node) JobProgress: {'identifier': 'pkg_node', 'progress': 'cmake'}
+[0.017897] (pkg_node) JobProgress: {'identifier': 'pkg_node', 'progress': 'build'}
+[0.019253] (pkg_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node', '--', '-j4', '-l4'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1809'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1643'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:50939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1856,unix/ubuntu:/tmp/.ICE-unix/1856'), ('INVOCATION_ID', '1968eea2de7141d5b6d57346f1af7232'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a91ec5df_c26e_47b1_930e_87b7c1f3f4e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.047296] (pkg_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.072431] (pkg_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099765] (-) TimerEvent: {}
+[0.202502] (-) TimerEvent: {}
+[0.275947] (pkg_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.303619] (-) TimerEvent: {}
+[0.311228] (pkg_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.314996] (pkg_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.404034] (-) TimerEvent: {}
+[0.453402] (pkg_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.504383] (-) TimerEvent: {}
+[0.514416] (pkg_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.516099] (pkg_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.604783] (-) TimerEvent: {}
+[0.672405] (pkg_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.707070] (-) TimerEvent: {}
+[0.744153] (pkg_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.759405] (pkg_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.759777] (pkg_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.759894] (pkg_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.773879] (pkg_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.774046] (pkg_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.776113] (pkg_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.780140] (pkg_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.782422] (pkg_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.797225] (pkg_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.797399] (pkg_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.799481] (pkg_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.800873] (pkg_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.807223] (-) TimerEvent: {}
+[0.815144] (pkg_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.818743] (pkg_node) StdoutLine: {'line': b'-- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node\n'}
+[0.836947] (pkg_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ttt\x1b[0m\n'}
+[0.853751] (pkg_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o\x1b[0m\n'}
+[0.908391] (-) TimerEvent: {}
+[1.011222] (-) TimerEvent: {}
+[1.112256] (-) TimerEvent: {}
+[1.212854] (-) TimerEvent: {}
+[1.314325] (-) TimerEvent: {}
+[1.416685] (-) TimerEvent: {}
+[1.517843] (-) TimerEvent: {}
+[1.620694] (-) TimerEvent: {}
+[1.723447] (-) TimerEvent: {}
+[1.824586] (-) TimerEvent: {}
+[1.927392] (-) TimerEvent: {}
+[2.030209] (-) TimerEvent: {}
+[2.131196] (-) TimerEvent: {}
+[2.231618] (-) TimerEvent: {}
+[2.332789] (-) TimerEvent: {}
+[2.422608] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.422953] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.423529] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.423820] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.423903] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.423975] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.424258] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.424679] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.425690] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.426057] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.426251] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.426439] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.426620] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.426802] (pkg_node) StderrLine: {'line': b'    9 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.427077] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.427259] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.427440] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.427630] (pkg_node) StderrLine: {'line': b'    9 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.427812] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.427990] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.428170] (pkg_node) StderrLine: {'line': b'    9 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.428349] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428536] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.428723] (pkg_node) StderrLine: {'line': b'    9 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.428906] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429146] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.429450] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.429634] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.429812] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.429989] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.430168] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.430346] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.430527] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.430707] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.430883] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.431061] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.431245] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.431449] (pkg_node) StderrLine: {'line': b'    9 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.431651] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.431895] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.432088] (pkg_node) StderrLine: {'line': b'    9 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());\n'}
+[2.432269] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.432449] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.432632] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.432809] (-) TimerEvent: {}
+[2.433055] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.433298] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.433526] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.433724] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.433907] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.434087] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.434468] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.434674] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.434866] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.435052] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.435247] (pkg_node) StderrLine: {'line': b'   13 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.435480] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.435667] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.435853] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.436035] (pkg_node) StderrLine: {'line': b'   13 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.436220] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.436403] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.436584] (pkg_node) StderrLine: {'line': b'   13 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.436844] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.437031] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.437253] (pkg_node) StderrLine: {'line': b'   13 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.437439] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.437619] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.437802] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.437986] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.438165] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.438345] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.438535] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.438718] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.438901] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.439167] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.439372] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.439556] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.439739] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.439924] (pkg_node) StderrLine: {'line': b'   13 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.440106] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.440300] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.440483] (pkg_node) StderrLine: {'line': b'   13 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);\n'}
+[2.440663] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.440842] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.441024] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.441261] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.441452] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.441741] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.441926] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.442111] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.442292] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.442480] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.442663] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.442845] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.443048] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.443260] (pkg_node) StderrLine: {'line': b'   18 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.443444] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.443625] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.443809] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.444049] (pkg_node) StderrLine: {'line': b'   18 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.444258] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.444439] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.444633] (pkg_node) StderrLine: {'line': b'   18 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.444814] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.445048] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.445240] (pkg_node) StderrLine: {'line': b'   18 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.445423] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.445604] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.445786] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.445967] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.446147] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.446329] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.446550] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.446755] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.446956] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.447139] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.447321] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.447502] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.447683] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.447864] (pkg_node) StderrLine: {'line': b'   18 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.448061] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.448243] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.448427] (pkg_node) StderrLine: {'line': b'   18 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);\n'}
+[2.448613] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.449058] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.449399] (pkg_node) StderrLine: {'line': b'   20 |   auto t2 = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_clock()->now();\n'}
+[2.449605] (pkg_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.449805] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.449995] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.450182] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.450366] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.450550] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.450760] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.450966] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.451150] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.451370] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.451564] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.451747] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.451931] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.452116] (pkg_node) StderrLine: {'line': b'   21 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.452342] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.452533] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.452721] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.452923] (pkg_node) StderrLine: {'line': b'   21 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.453106] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.453287] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.453467] (pkg_node) StderrLine: {'line': b'   21 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.453650] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.453937] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.454152] (pkg_node) StderrLine: {'line': b'   21 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.454344] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.454525] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.454708] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.454890] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.455071] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.455251] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.455431] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.455612] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.455794] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.455976] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.456221] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.456422] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.456606] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.456791] (pkg_node) StderrLine: {'line': b'   21 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.456980] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.457160] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.457340] (pkg_node) StderrLine: {'line': b'   21 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());\n'}
+[2.457528] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.457709] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:23:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.457892] (pkg_node) StderrLine: {'line': b'   23 |   auto t3 = \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->now();\n'}
+[2.458071] (pkg_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.458353] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.458541] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.458792] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.458980] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.459162] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.459344] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.459524] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.459706] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.459890] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.460092] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.460298] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.460482] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.460675] (pkg_node) StderrLine: {'line': b'   24 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.460859] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.461043] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.461304] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.461496] (pkg_node) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.461726] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.461958] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.462158] (pkg_node) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.462358] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.462548] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.462743] (pkg_node) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.462929] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.463508] (pkg_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.464092] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.464297] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.464484] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.464672] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.464881] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.465067] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.465251] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.465433] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.465614] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.465832] (pkg_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5\x1b[m\x1b[K:\n'}
+[2.466106] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.466296] (pkg_node) StderrLine: {'line': b'   24 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.466478] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.466661] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.466841] (pkg_node) StderrLine: {'line': b'   24 |   RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());\n'}
+[2.467021] (pkg_node) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.534668] (-) TimerEvent: {}
+[2.637461] (-) TimerEvent: {}
+[2.740288] (-) TimerEvent: {}
+[2.841349] (-) TimerEvent: {}
+[2.865474] (pkg_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1\n'}
+[2.866036] (pkg_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2\n'}
+[2.866265] (pkg_node) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[2.868696] (pkg_node) CommandEnded: {'returncode': 2}
+[2.915212] (pkg_node) JobEnded: {'identifier': 'pkg_node', 'rc': 2}
+[2.928608] (-) EventReactorShutdown: {}

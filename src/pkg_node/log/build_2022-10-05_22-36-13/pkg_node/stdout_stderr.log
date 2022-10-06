@@ -1,0 +1,241 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node
+[35m[1mConsolidate compiler generated dependencies of target ttt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    9 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    9 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    9 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   13 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   13 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   13 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |               [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   18 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   18 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   18 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:20:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   20 |   auto t2 = [01;31m[Kthis[m[K->get_clock()->now();
+      |             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:23:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   23 |   auto t3 = [01;31m[Kthis[m[K->now();
+      |             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   24 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   24 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   24 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

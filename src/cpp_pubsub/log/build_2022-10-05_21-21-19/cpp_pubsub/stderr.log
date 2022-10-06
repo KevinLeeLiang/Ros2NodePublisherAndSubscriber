@@ -1,0 +1,163 @@
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int64().hpp: No such file or directory
+    4 | #include [01;31m[K"std_msgs/msg/u_int64().hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:14:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   14 | static std_msgs::msg::[01;31m[Ku_int64[m[K time_last_;
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_last_[m[K’ does not name a type; did you mean ‘[01m[Ktime_t[m[K’?
+   16 | [01;31m[Ktime_last_[m[K = t1.seconds()*1e9+t1.nanoseconds();
+      | [01;31m[K^~~~~~~~~~[m[K
+      | [32m[Ktime_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:39:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   39 |     rclcpp::Publisher<std_msgs::msg::[01;31m[Ku_int64[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:39:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:39:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |     rclcpp::Publisher<std_msgs::msg::u_int64[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:39:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |     rclcpp::Publisher<std_msgs::msg::u_int64>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:39:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   39 |     rclcpp::Publisher<std_msgs::msg::u_int64>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+      |                                                          [32m[Krcl_publisher_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTimerPublisher::TimerPublisher()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   24 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::u_int64>("topicB", 100);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   24 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[Ku_int64[m[K>("topicB", 100);
+      |                                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTimerPublisher::create_publisher<<expression error> >(const char [7], int)[m[K’
+   24 |       publisher_ = this->create_publisher<std_msgs::msg::u_int64>("topicB", 100[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:24:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |       publisher_ = this->create_publisher<std_msgs::msg::u_int64>("topicB", 100[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid TimerPublisher::timer_callback()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   32 |       auto message = std_msgs::msg::[01;31m[Ku_int64[m[K;
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:33:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   33 |       t1 = [01;31m[Kros[m[K::Time::now();
+      |            [01;31m[K^~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[KtonSec[m[K’
+   34 |       message.data = t1.[01;31m[KtonSec[m[K();
+      |                         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5[m[K:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:89:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_last_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_t[m[K’?
+   35 |       RCLCPP_INFO(this->get_logger(), "topicB Publishing: '%d'", message.data.int32() - [01;31m[Ktime_last_[m[K);
+      |                                                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:36:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   36 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K At global scope:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:52:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   52 |     void topic_callback(const std_msgs::msg::[01;31m[Ku_int64[m[K::SharedPtr msg) const
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:52:65:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   52 |     void topic_callback(const std_msgs::msg::u_int64::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                 [01;31m[K^~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:52:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   52 |     void topic_callback[34m[K([m[Kconst std_msgs::msg::u_int64::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+      |                        [34m[K~[m[K                                       [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                [32m[K)[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:52:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   52 |     void topic_callback(const std_msgs::msg::u_int64::[01;31m[KSharedPtr[m[K msg) const
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:52:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   52 |     void topic_callback(const std_msgs::msg::u_int64::SharedPtr [01;31m[Kmsg[m[K) const
+      |                                                                 [01;31m[K^~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   57 |     rclcpp::Subscription<std_msgs::msg::[01;31m[Ku_int64[m[K>::SharedPtr subscription_;
+      |                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     rclcpp::Subscription<std_msgs::msg::u_int64[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   57 |     rclcpp::Subscription<std_msgs::msg::u_int64>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:57:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   57 |     rclcpp::Subscription<std_msgs::msg::u_int64>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                             [32m[Krcl_subscription_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTimerSubscriber::TimerSubscriber()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   47 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::u_int64>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_subscription_t[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   47 |       subscription_ = this->create_subscription<std_msgs::msg::[01;31m[Ku_int64[m[K>(
+      |                                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ku_int64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTimerSubscriber::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (TimerSubscriber::*)(...), TimerSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   48 |       "topicA", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |       "topicA", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:2[m[K:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber][m[K’:
+[01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<TimerSubscriber>][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TimerSubscriber; _Args = {}][m[K’
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:64:50:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerSubscriber::TimerSubscriber()[m[K’ is private within this context
+  146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:3:[m[K [01;36m[Knote: [m[Kdeclared private here
+   44 |   [01;36m[KTimerSubscriber[m[K()
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,374 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001735] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.021396] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.023473] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.025555] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1661'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install:/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:51615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1878,unix/ubuntu:/tmp/.ICE-unix/1878'), ('INVOCATION_ID', 'cfac3af878ca4d0aa174d77f01bf185d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8e1e26b9_bdc7_46d5_8b16_900545d5bbb0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub:/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9ca7a1a363c14576b378fe63633d5297'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub:/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/install/pkg_node:/opt/ros/foxy')]), 'shell': False}
+[0.064005] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.089258] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.090330] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.100347] (-) TimerEvent: {}
+[0.202746] (-) TimerEvent: {}
+[0.306996] (-) TimerEvent: {}
+[0.409346] (-) TimerEvent: {}
+[0.516082] (-) TimerEvent: {}
+[0.643148] (-) TimerEvent: {}
+[0.743840] (-) TimerEvent: {}
+[0.845863] (-) TimerEvent: {}
+[0.946981] (-) TimerEvent: {}
+[1.048937] (-) TimerEvent: {}
+[1.150498] (-) TimerEvent: {}
+[1.252581] (-) TimerEvent: {}
+[1.353023] (-) TimerEvent: {}
+[1.453483] (-) TimerEvent: {}
+[1.555299] (-) TimerEvent: {}
+[1.657940] (-) TimerEvent: {}
+[1.759198] (-) TimerEvent: {}
+[1.862858] (-) TimerEvent: {}
+[1.964829] (-) TimerEvent: {}
+[2.066821] (-) TimerEvent: {}
+[2.168314] (-) TimerEvent: {}
+[2.270886] (-) TimerEvent: {}
+[2.372722] (-) TimerEvent: {}
+[2.473326] (-) TimerEvent: {}
+[2.574134] (-) TimerEvent: {}
+[2.675321] (-) TimerEvent: {}
+[2.777373] (-) TimerEvent: {}
+[2.878086] (-) TimerEvent: {}
+[2.979749] (-) TimerEvent: {}
+[3.080353] (-) TimerEvent: {}
+[3.181510] (-) TimerEvent: {}
+[3.282568] (-) TimerEvent: {}
+[3.383594] (-) TimerEvent: {}
+[3.485053] (-) TimerEvent: {}
+[3.586835] (-) TimerEvent: {}
+[3.687457] (-) TimerEvent: {}
+[3.790719] (-) TimerEvent: {}
+[3.892662] (-) TimerEvent: {}
+[3.994151] (-) TimerEvent: {}
+[4.094652] (-) TimerEvent: {}
+[4.196778] (-) TimerEvent: {}
+[4.297802] (-) TimerEvent: {}
+[4.399185] (-) TimerEvent: {}
+[4.500240] (-) TimerEvent: {}
+[4.600624] (-) TimerEvent: {}
+[4.703193] (-) TimerEvent: {}
+[4.805210] (-) TimerEvent: {}
+[4.907170] (-) TimerEvent: {}
+[5.007668] (-) TimerEvent: {}
+[5.108288] (-) TimerEvent: {}
+[5.209746] (-) TimerEvent: {}
+[5.311497] (-) TimerEvent: {}
+[5.413218] (-) TimerEvent: {}
+[5.514021] (-) TimerEvent: {}
+[5.615097] (-) TimerEvent: {}
+[5.716919] (-) TimerEvent: {}
+[5.817303] (-) TimerEvent: {}
+[5.918773] (-) TimerEvent: {}
+[6.019580] (-) TimerEvent: {}
+[6.120227] (-) TimerEvent: {}
+[6.220617] (-) TimerEvent: {}
+[6.321325] (-) TimerEvent: {}
+[6.422186] (-) TimerEvent: {}
+[6.522775] (-) TimerEvent: {}
+[6.625927] (-) TimerEvent: {}
+[6.727919] (-) TimerEvent: {}
+[6.830836] (-) TimerEvent: {}
+[6.933069] (-) TimerEvent: {}
+[7.034636] (-) TimerEvent: {}
+[7.135415] (-) TimerEvent: {}
+[7.235857] (-) TimerEvent: {}
+[7.337583] (-) TimerEvent: {}
+[7.350846] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:9:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.351183] (cpp_pubsub) StderrLine: {'line': b'    9 | \x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K time_last_;\n'}
+[7.351280] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.351357] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:10:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.351432] (cpp_pubsub) StderrLine: {'line': b'   10 | time_last_\x1b[01;31m\x1b[K(\x1b[m\x1b[Kros::Time::now());\n'}
+[7.351514] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.351599] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:31:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.351675] (cpp_pubsub) StderrLine: {'line': b'   31 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[7.351747] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.351816] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:31:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.351929] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:31:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.352063] (cpp_pubsub) StderrLine: {'line': b'   31 |     rclcpp::Publisher<std_msgs::msg::Float64\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[7.352146] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.352230] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:31:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.352301] (cpp_pubsub) StderrLine: {'line': b'   31 |     rclcpp::Publisher<std_msgs::msg::Float64>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[7.352369] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.352436] (cpp_pubsub) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.353720] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:31:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.353928] (cpp_pubsub) StderrLine: {'line': b'   31 |     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[7.354086] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.354211] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.360632] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTimerPublisher::TimerPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.360949] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.361124] (cpp_pubsub) StderrLine: {'line': b'   17 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Float64>("topicA", 100);\n'}
+[7.361207] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.361293] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.361465] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.361565] (cpp_pubsub) StderrLine: {'line': b'   17 |       publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>("topicA", 100);\n'}
+[7.361642] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.361853] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.361962] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTimerPublisher::create_publisher<<expression error> >(const char [7], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.362061] (cpp_pubsub) StderrLine: {'line': b'   17 |       publisher_ = this->create_publisher<std_msgs::msg::Float64>("topicA", 100\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.362177] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.362283] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.362379] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.362449] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.362539] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:3\x1b[m\x1b[K:\n'}
+[7.362609] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.362696] (cpp_pubsub) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[7.362782] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.362880] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.362963] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.363034] (cpp_pubsub) StderrLine: {'line': b'   17 |       publisher_ = this->create_publisher<std_msgs::msg::Float64>("topicA", 100\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.363103] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.429124] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:13:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.429454] (cpp_pubsub) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K time_last_;\n'}
+[7.429604] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.429697] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:14:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.429855] (cpp_pubsub) StderrLine: {'line': b'   14 | time_last_\x1b[01;31m\x1b[K(\x1b[m\x1b[Kros::Time::now());\n'}
+[7.430077] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.430255] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.430431] (cpp_pubsub) StderrLine: {'line': b'   35 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[7.430605] (cpp_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.434011] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.434308] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.434440] (cpp_pubsub) StderrLine: {'line': b'   35 |     rclcpp::Publisher<std_msgs::msg::Float64\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[7.434518] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.434590] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.434670] (cpp_pubsub) StderrLine: {'line': b'   35 |     rclcpp::Publisher<std_msgs::msg::Float64>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[7.434799] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.434895] (cpp_pubsub) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.434966] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:35:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.435047] (cpp_pubsub) StderrLine: {'line': b'   35 |     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[7.435116] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.435190] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.437741] (-) TimerEvent: {}
+[7.441992] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTimerPublisher::TimerPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.444817] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.444942] (cpp_pubsub) StderrLine: {'line': b'   21 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Float64>("topicB", 100);\n'}
+[7.445522] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.445641] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.445793] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.445883] (cpp_pubsub) StderrLine: {'line': b'   21 |       publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>("topicB", 100);\n'}
+[7.445954] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.446026] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.446097] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTimerPublisher::create_publisher<<expression error> >(const char [7], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.446170] (cpp_pubsub) StderrLine: {'line': b'   21 |  this->create_publisher<std_msgs::msg::Float64>("topicB", 100\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.446279] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.446388] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[7.446466] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.446549] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.446619] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.446687] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[7.446755] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.446841] (cpp_pubsub) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[7.446908] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.447080] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.447165] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.447238] (cpp_pubsub) StderrLine: {'line': b'   21 |  this->create_publisher<std_msgs::msg::Float64>("topicB", 100\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.447308] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.447517] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[7.447672] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TimerPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.447894] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:25:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.448052] (cpp_pubsub) StderrLine: {'line': b'   25 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K();\n'}
+[7.448220] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.448342] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:26:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.448431] (cpp_pubsub) StderrLine: {'line': b'   26 |       message.data = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time::now();\n'}
+[7.448504] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.453655] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.455120] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[7.455282] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.455411] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.455589] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.455791] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.456076] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.456256] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[7.456404] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.456555] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.456709] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:3\x1b[m\x1b[K:\n'}
+[7.456847] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:27:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_last_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.457012] (cpp_pubsub) StderrLine: {'line': b'   27 |       RCLCPP_INFO(this->get_logger(), "Publishing: \'%d\'", message.data.Float64() - \x1b[01;31m\x1b[Ktime_last_\x1b[m\x1b[K);\n'}
+[7.457180] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.457332] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:28:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.457527] (cpp_pubsub) StderrLine: {'line': b'   28 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[7.457681] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.457841] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.458006] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.458164] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.458336] (cpp_pubsub) StderrLine: {'line': b'   44 |     void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K::SharedPtr msg) const\n'}
+[7.458514] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.458662] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.459196] (cpp_pubsub) StderrLine: {'line': b'   44 |     void topic_callback(const std_msgs::msg::Float64::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.459459] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.459712] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.459976] (cpp_pubsub) StderrLine: {'line': b'   44 |     void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg::Float64::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.460247] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[7.460550] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[7.460802] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.461075] (cpp_pubsub) StderrLine: {'line': b'   44 |     void topic_callback(const std_msgs::msg::Float64::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg) const\n'}
+[7.461331] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.461688] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.461805] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:44:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.461889] (cpp_pubsub) StderrLine: {'line': b'   44 |     void topic_callback(const std_msgs::msg::Float64::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.461961] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.529350] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TimerPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.529912] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.530398] (cpp_pubsub) StderrLine: {'line': b'   29 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K();\n'}
+[7.530630] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.530783] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:30:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.530969] (cpp_pubsub) StderrLine: {'line': b'   30 |       message.data = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time::now();\n'}
+[7.531107] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.535463] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.538166] (-) TimerEvent: {}
+[7.538359] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[7.538605] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.538736] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.538820] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.538899] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.538974] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.539119] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[7.539240] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.543056] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.543281] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[7.543511] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:31:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_last_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.543714] (cpp_pubsub) StderrLine: {'line': b'   31 | O(this->get_logger(), "Publishing: \'%d\'", message.data.Float64() - \x1b[01;31m\x1b[Ktime_last_\x1b[m\x1b[K);\n'}
+[7.543885] (cpp_pubsub) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.544054] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[7.544211] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.544353] (cpp_pubsub) StderrLine: {'line': b'   32 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[7.544515] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.544643] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[7.544782] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.544946] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.545104] (cpp_pubsub) StderrLine: {'line': b'   48 |     void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K::SharedPtr msg) const\n'}
+[7.545249] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.545363] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.545515] (cpp_pubsub) StderrLine: {'line': b'   48 |     void topic_callback(const std_msgs::msg::Float64::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.545665] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.546039] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.546237] (cpp_pubsub) StderrLine: {'line': b'   48 |     void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg::Float64::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.546408] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[7.546531] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[7.546721] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.546813] (cpp_pubsub) StderrLine: {'line': b'   48 |     void topic_callback(const std_msgs::msg::Float64::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg) const\n'}
+[7.546992] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.547104] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.547216] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:48:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.547360] (cpp_pubsub) StderrLine: {'line': b'   48 |     void topic_callback(const std_msgs::msg::Float64::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.547439] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.569990] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.570322] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:39:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.570493] (cpp_pubsub) StderrLine: {'line': b'   39 |       subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>(\n'}
+[7.570907] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.571106] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:39:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.638093] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:40:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (TimerSubscriber::*)(...), TimerSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.638410] (-) TimerEvent: {}
+[7.638563] (cpp_pubsub) StderrLine: {'line': b'   40 |       "topicB", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.638826] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.638933] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.639016] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.639163] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.639293] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:3\x1b[m\x1b[K:\n'}
+[7.639459] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.639629] (cpp_pubsub) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[7.639786] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.639932] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.640072] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:40:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.640203] (cpp_pubsub) StderrLine: {'line': b'   40 |       "topicB", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.640361] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.667313] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.667585] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:43:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.667692] (cpp_pubsub) StderrLine: {'line': b'   43 |       subscription_ = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>(\n'}
+[7.667804] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.669593] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:43:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.733966] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (TimerSubscriber::*)(...), TimerSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.734291] (cpp_pubsub) StderrLine: {'line': b'   44 |       "topicA", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.734409] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.736260] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.736543] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.736728] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.736880] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[7.736962] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.737129] (cpp_pubsub) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[7.737264] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.737458] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.737601] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.737786] (cpp_pubsub) StderrLine: {'line': b'   44 |       "topicA", 100, std::bind(&TimerSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[7.737929] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.738820] (-) TimerEvent: {}
+[7.840254] (-) TimerEvent: {}
+[7.941191] (-) TimerEvent: {}
+[8.042226] (-) TimerEvent: {}
+[8.142674] (-) TimerEvent: {}
+[8.243410] (-) TimerEvent: {}
+[8.343904] (-) TimerEvent: {}
+[8.445640] (-) TimerEvent: {}
+[8.546362] (-) TimerEvent: {}
+[8.647508] (-) TimerEvent: {}
+[8.747852] (-) TimerEvent: {}
+[8.849848] (-) TimerEvent: {}
+[8.951798] (-) TimerEvent: {}
+[9.053018] (-) TimerEvent: {}
+[9.153430] (-) TimerEvent: {}
+[9.255074] (-) TimerEvent: {}
+[9.356387] (-) TimerEvent: {}
+[9.457272] (-) TimerEvent: {}
+[9.558514] (-) TimerEvent: {}
+[9.659041] (-) TimerEvent: {}
+[9.670459] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.670740] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.670907] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:63\x1b[m\x1b[K,\n'}
+[9.670987] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:1\x1b[m\x1b[K:\n'}
+[9.671060] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.671133] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<TimerSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672281] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672448] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672541] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672632] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672712] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.673152] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TimerSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.673266] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:56:50:\x1b[m\x1b[K   required from here\n'}
+[9.673344] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[9.673477] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.673930] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.674046] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[9.674129] (cpp_pubsub) StderrLine: {'line': b'   36 |   \x1b[01;36m\x1b[KTimerSubscriber\x1b[m\x1b[K()\n'}
+[9.674206] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.759383] (-) TimerEvent: {}
+[9.765517] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.765770] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.765854] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[9.766024] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.766133] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[9.766202] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[9.766309] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[9.766420] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:2\x1b[m\x1b[K:\n'}
+[9.766597] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.766834] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TimerSubscriber; _Args = {}; _Tp = TimerSubscriber; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<TimerSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.767031] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.767874] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.768040] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.768180] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TimerSubscriber>; _Args = {}; _Tp = TimerSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.768958] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TimerSubscriber; _Alloc = std::allocator<TimerSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.769045] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TimerSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.769623] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:60:50:\x1b[m\x1b[K   required from here\n'}
+[9.770512] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimerSubscriber::TimerSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[9.770678] (cpp_pubsub) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.770758] (cpp_pubsub) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.770829] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:40:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[9.770899] (cpp_pubsub) StderrLine: {'line': b'   40 |   \x1b[01;36m\x1b[KTimerSubscriber\x1b[m\x1b[K()\n'}
+[9.770968] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.859681] (-) TimerEvent: {}
+[9.960214] (-) TimerEvent: {}
+[10.045713] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[10.045912] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[10.045998] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[10.060698] (-) TimerEvent: {}
+[10.067442] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[10.069066] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[10.069736] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[10.071045] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[10.122205] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[10.126297] (-) EventReactorShutdown: {}

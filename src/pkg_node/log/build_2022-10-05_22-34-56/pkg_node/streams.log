@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node -- -j4 -l4
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target ttt[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o[0m
+[0.123s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.124s]     5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.124s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.124s] compilation terminated.
+[0.126s] make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1
+[0.127s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2
+[0.127s] make: *** [Makefile:146: all] Error 2
+[0.134s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node -- -j4 -l4

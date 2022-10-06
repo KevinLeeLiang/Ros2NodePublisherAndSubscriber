@@ -1,0 +1,20 @@
+[0.029s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.091s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.234s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.235s]     7 | #include [01;31m[K"ros/ros.h"[m[K
+[0.235s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.235s] compilation terminated.
+[0.239s] make[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.239s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.239s] make[1]: *** Waiting for unfinished jobs....
+[0.253s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[0.253s]    10 | #include [01;31m[K"ros/ros.h"[m[K
+[0.253s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.253s] compilation terminated.
+[0.256s] make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.256s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.256s] make: *** [Makefile:146: all] Error 2
+[0.262s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

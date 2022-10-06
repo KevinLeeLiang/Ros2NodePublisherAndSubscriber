@@ -1,0 +1,24 @@
+[0.018s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node -- -j4 -l4
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target ttt[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o[0m
+[2.001s] [100%] [32m[1mLinking CXX executable ttt[0m
+[2.206s] [100%] Built target ttt
+[2.216s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node -- -j4 -l4
+[2.253s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node
+[2.255s] -- Install configuration: ""
+[2.256s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/package_run_dependencies/pkg_node
+[2.256s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/parent_prefix_path/pkg_node
+[2.256s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/ament_prefix_path.sh
+[2.257s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/ament_prefix_path.dsv
+[2.257s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/path.sh
+[2.257s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/path.dsv
+[2.257s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.bash
+[2.259s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.sh
+[2.260s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.zsh
+[2.260s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.dsv
+[2.262s] -- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/package.dsv
+[2.262s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/packages/pkg_node
+[2.264s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/cmake/pkg_nodeConfig.cmake
+[2.264s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/cmake/pkg_nodeConfig-version.cmake
+[2.265s] -- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/package.xml
+[2.265s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node

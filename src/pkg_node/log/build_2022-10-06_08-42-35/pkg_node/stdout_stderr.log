@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target ttt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o[0m
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:110:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KInt64[m[K’ in ‘[01m[Ktime_last_.std_msgs::msg::Int64_<std::allocator<void> >::data[m[K’, which is of non-class type ‘[01m[Kstd_msgs::msg::Int64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Klong int[m[K’}
+   21 |   printf("[rclcpp::Clock().now()] sec:%lf nano:%ld, test:%ld", t.seconds(), t.nanoseconds(), time_last_.data.[01;31m[KInt64[m[K());
+      |                                                                                                              [01;31m[K^~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:14:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kll[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   14 |   long [01;35m[Kll[m[K = t.nanoseconds();
+      |        [01;35m[K^~[m[K
+make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

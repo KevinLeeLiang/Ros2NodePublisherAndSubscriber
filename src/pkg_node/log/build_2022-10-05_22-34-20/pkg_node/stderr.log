@@ -1,0 +1,31 @@
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:8:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    8 |   auto t = [01;31m[Krclcpp[m[K::Clock().now();
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+    9 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+    9 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "[rclcpp::Clock().now()] sec:%lf nano:%ld", t.seconds(), t.nanoseconds());
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:13:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   13 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::system_clock::now()] sec:%ld", tt);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:18:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   18 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[std::chrono::steady_clock::now()] sec:%lf", secs);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:20:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   20 |   auto t2 = [01;31m[Kthis[m[K->get_clock()->now();
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:21:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[get_clock()->now()] sec:%lf nano:%ld", t2.seconds(), t2.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:23:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   23 |   auto t3 = [01;31m[Kthis[m[K->now();
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:24:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   24 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "[this->now()] sec:%lf nano:%ld", t3.seconds(), t3.nanoseconds());
+      |               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

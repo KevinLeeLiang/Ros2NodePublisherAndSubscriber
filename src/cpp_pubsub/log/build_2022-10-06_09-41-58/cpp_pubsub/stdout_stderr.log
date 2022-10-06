@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTopicAComponent::TopicAComponent()[m[K’:
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:27:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicBComponent[m[K’ has not been declared
+   27 |                         "topicB", 100, std::bind(&[01;31m[KTopicBComponent[m[K::topic_callback, this, _1));
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicBComponent[m[K’ has not been declared
+   29 |                         500ms, std::bind(&[01;31m[KTopicBComponent[m[K::timer_callback, this));
+      |                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable listener[0m
+[ 75%] Built target listener
+make: *** [Makefile:146: all] Error 2

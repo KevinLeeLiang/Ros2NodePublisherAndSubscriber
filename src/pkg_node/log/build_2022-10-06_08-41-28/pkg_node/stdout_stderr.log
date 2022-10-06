@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target ttt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ttt[0m
+[100%] Built target ttt
+-- Install configuration: ""
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/package_run_dependencies/pkg_node
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/parent_prefix_path/pkg_node
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/path.sh
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/environment/path.dsv
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.bash
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.sh
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.zsh
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/local_setup.dsv
+-- Installing: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/package.dsv
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/ament_index/resource_index/packages/pkg_node
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/cmake/pkg_nodeConfig.cmake
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/cmake/pkg_nodeConfig-version.cmake
+-- Up-to-date: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/install/pkg_node/share/pkg_node/package.xml

@@ -1,0 +1,62 @@
+[0.021s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub
+[0.100s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.404s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.651s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.806s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.842s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.993s] -- Looking for pthread.h
+[1.075s] -- Looking for pthread.h - found
+[1.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.155s] -- Looking for pthread_create in pthreads
+[1.210s] -- Looking for pthread_create in pthreads - not found
+[1.212s] -- Looking for pthread_create in pthread
+[1.285s] -- Looking for pthread_create in pthread - found
+[1.287s] -- Found Threads: TRUE  
+[1.561s] -- Configuring done
+[1.579s] -- Generating done
+[1.582s] -- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub
+[1.596s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/install/cpp_pubsub
+[1.601s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[1.622s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.906s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.952s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.165s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.394s] -- Configuring done
+[2.412s] -- Generating done
+[2.416s] -- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub
+[2.443s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.444s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.469s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[2.570s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.570s] (.text+0x24): undefined reference to `main'
+[2.571s] collect2: error: ld returned 1 exit status
+[2.571s] make[2]: *** [CMakeFiles/listener.dir/build.make:144: listener] Error 1
+[2.572s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[2.572s] make[1]: *** Waiting for unfinished jobs....
+[8.782s] [100%] [32m[1mLinking CXX executable talker[0m
+[8.979s] [100%] Built target talker
+[8.980s] make: *** [Makefile:146: all] Error 2
+[8.982s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

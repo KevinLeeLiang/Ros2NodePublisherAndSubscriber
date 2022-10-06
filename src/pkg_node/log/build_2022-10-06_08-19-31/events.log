@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001390] (pkg_node) JobQueued: {'identifier': 'pkg_node', 'dependencies': OrderedDict()}
+[0.001519] (pkg_node) JobStarted: {'identifier': 'pkg_node'}
+[0.025110] (pkg_node) JobProgress: {'identifier': 'pkg_node', 'progress': 'cmake'}
+[0.025743] (pkg_node) JobProgress: {'identifier': 'pkg_node', 'progress': 'build'}
+[0.025845] (pkg_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node', '--', '-j4', '-l4'], 'cwd': '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'garen-lee'), ('SSH_AGENT_PID', '1809'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/garen-lee'), ('OLDPWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1643'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'garen-lee'), ('JOURNAL_STREAM', '8:50939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'garen-lee'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/garen-lee/jialiang.li/ros2/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1856,unix/ubuntu:/tmp/.ICE-unix/1856'), ('INVOCATION_ID', '1968eea2de7141d5b6d57346f1af7232'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a91ec5df_c26e_47b1_930e_87b7c1f3f4e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099838] (-) TimerEvent: {}
+[0.200684] (-) TimerEvent: {}
+[0.215812] (pkg_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.303344] (-) TimerEvent: {}
+[0.304268] (pkg_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.329891] (pkg_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.403510] (-) TimerEvent: {}
+[0.426988] (pkg_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.437428] (pkg_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.438217] (pkg_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.439203] (pkg_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.445049] (pkg_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.506360] (-) TimerEvent: {}
+[0.550070] (pkg_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.560121] (pkg_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.560468] (pkg_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.561243] (pkg_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.562416] (pkg_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.592764] (pkg_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.607156] (-) TimerEvent: {}
+[0.709895] (-) TimerEvent: {}
+[0.813233] (-) TimerEvent: {}
+[0.815459] (pkg_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.855701] (pkg_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.859749] (pkg_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.915224] (-) TimerEvent: {}
+[1.014473] (pkg_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.016451] (-) TimerEvent: {}
+[1.065316] (pkg_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.066935] (pkg_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.118879] (-) TimerEvent: {}
+[1.221947] (pkg_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.222255] (-) TimerEvent: {}
+[1.300250] (pkg_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.320818] (pkg_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.321152] (pkg_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.321293] (pkg_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.322474] (-) TimerEvent: {}
+[1.340108] (pkg_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.340372] (pkg_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.343258] (pkg_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.348323] (pkg_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.351080] (pkg_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.371802] (pkg_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.372065] (pkg_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.374584] (pkg_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.376131] (pkg_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.394159] (pkg_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.398333] (pkg_node) StdoutLine: {'line': b'-- Build files have been written to: /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/build/pkg_node\n'}
+[1.419605] (pkg_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ttt\x1b[0m\n'}
+[1.422793] (-) TimerEvent: {}
+[1.437216] (pkg_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ttt.dir/src/time.cpp.o\x1b[0m\n'}
+[1.522981] (-) TimerEvent: {}
+[1.623736] (-) TimerEvent: {}
+[1.728548] (-) TimerEvent: {}
+[1.831758] (-) TimerEvent: {}
+[1.933188] (-) TimerEvent: {}
+[2.036102] (-) TimerEvent: {}
+[2.138628] (-) TimerEvent: {}
+[2.241276] (-) TimerEvent: {}
+[2.344035] (-) TimerEvent: {}
+[2.445108] (-) TimerEvent: {}
+[2.548063] (-) TimerEvent: {}
+[2.653474] (-) TimerEvent: {}
+[2.756290] (-) TimerEvent: {}
+[2.857228] (-) TimerEvent: {}
+[2.960114] (-) TimerEvent: {}
+[3.049358] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.049704] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:10:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.049843] (pkg_node) StderrLine: {'line': b'   10 |   \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Int64 time_last_;\n'}
+[3.049918] (pkg_node) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.052882] (pkg_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/pkg_node/src/time.cpp:11:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_last_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.053077] (pkg_node) StderrLine: {'line': b'   11 |   std::cout << typeid (\x1b[01;31m\x1b[Ktime_last_\x1b[m\x1b[K).name() << std::endl;\n'}
+[3.053160] (pkg_node) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.053235] (pkg_node) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Ktime_t\x1b[m\x1b[K\n'}
+[3.061160] (-) TimerEvent: {}
+[3.162498] (-) TimerEvent: {}
+[3.263156] (-) TimerEvent: {}
+[3.363650] (-) TimerEvent: {}
+[3.464259] (-) TimerEvent: {}
+[3.544994] (pkg_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ttt.dir/build.make:76: CMakeFiles/ttt.dir/src/time.cpp.o] Error 1\n'}
+[3.545321] (pkg_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ttt.dir/all] Error 2\n'}
+[3.545636] (pkg_node) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[3.547894] (pkg_node) CommandEnded: {'returncode': 2}
+[3.564853] (-) TimerEvent: {}
+[3.603281] (pkg_node) JobEnded: {'identifier': 'pkg_node', 'rc': 2}
+[3.605961] (-) EventReactorShutdown: {}

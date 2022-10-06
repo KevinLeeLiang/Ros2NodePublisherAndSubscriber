@@ -1,0 +1,28 @@
+[0.031s] Invoking command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.748s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KTopicAComponent::TopicAComponent()[m[K’:
+[1.748s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:27:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicBComponent[m[K’ has not been declared
+[1.748s]    27 |                         "topicB", 100, std::bind(&[01;31m[KTopicBComponent[m[K::topic_callback, this, _1));
+[1.748s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.750s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.751s]    28 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.751s]       |       [01;31m[K^~~~~~[m[K
+[1.751s]       |       [32m[Ktimer_t[m[K
+[1.751s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/publisher_member_function.cpp:29:43:[m[K [01;31m[Kerror: [m[K‘[01m[KTopicBComponent[m[K’ has not been declared
+[1.752s]    29 |                         500ms, std::bind(&[01;31m[KTopicBComponent[m[K::timer_callback, this));
+[1.752s]       |                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.781s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KTopicBComponent::TopicBComponent()[m[K’:
+[1.782s] [01m[K/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:28:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.782s]    28 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.782s]       |       [01;31m[K^~~~~~[m[K
+[1.782s]       |       [32m[Ktimer_t[m[K
+[2.863s] make[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.863s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[2.863s] make[1]: *** Waiting for unfinished jobs....
+[3.722s] make[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[3.722s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[3.722s] make: *** [Makefile:146: all] Error 2
+[3.724s] Invoked command in '/home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/garen-lee/jialiang.li/ros2/test/create_pkg_node_ws/src/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
